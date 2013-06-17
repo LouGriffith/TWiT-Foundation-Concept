@@ -1,0 +1,98 @@
+@import "bits";
+@import "typography";
+@import "nav";
+
+@import "shows";
+@import "episode";
+@import "home";
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #444;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.headerBackground{
+	background: darken($primary, 10%);
+}
+
+.logo{
+	text-indent: -9999px;
+	width: 220px;
+	height: 62px;
+	background: url("../img/twit-logo_footer.png") no-repeat;
+}
+
+.footerBackground{
+	border-top: 1px solid #ddd;
+	padding-top: 1.875em;
+	color: #999;
+
+	.social-links{
+		border-top: 1px solid #ddd;
+		margin-top: 20px;
+		padding: 20px 0px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #ddd;
+
+		li{
+			margin-left: 1em;
+		}
+
+		li:first-child{
+			margin-left: 1.35em;
+		}
+
+	}
+
+	.social{
+		text-indent: -9999px;
+		background: #ddd;
+		width: 40px;
+		height: 40px;
+		border-radius: 5px;
+
+		&:hover{
+			background: #23a6d1;
+		}
+	}
+
+	.twitter:hover{
+		background: $twitter;
+	}
+
+	.facebook:hover{
+		background: $facebook;
+	}
+
+	.flickr:hover{
+		background: $flickr;
+	}
+
+	.google:hover{
+		background: $google;
+	}
+
+	a, .side-nav a{
+		color: #999;
+		font-size: .9em;
+	}
+
+	a:hover{
+		color: #23a6d1;
+	}
+
+	p{
+		font-size: .8em;
+	}
+
+	h2, h5{
+		color: #999;
+		font-size: .9em;
+	}
+}
+

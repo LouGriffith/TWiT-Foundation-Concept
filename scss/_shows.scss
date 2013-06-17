@@ -1,0 +1,50 @@
+.pageHeaderBackground{
+	padding-top: 5px;
+	background: darken($primary, 10%);
+	background: linear-gradient(darken($primary, 10%), darken($primary, 20%));
+	box-shadow: rgba(0,0,0,0.5) 0 0 50px 0 inset;
+	background: 
+	    url("../img/img_twit-bug.png") right -50px no-repeat,
+	    url("../img/subtle_white_feathers.png") repeat,
+	    linear-gradient(darken($primary, 10%), darken($primary, 20%));
+
+	h2{
+		color: #fff;
+	}
+}
+
+.showsBackground{
+	position: relative;
+}
+
+.showsBack{
+	position: absolute;
+	top: 0px; 
+	height: 100%;
+	width: 100%;
+}
+
+.shows.panel{
+	margin-top: 10px;
+}
+
+.showFilter{
+	margin-top: 20px;
+
+	dd a{
+		color: #eee;
+	}
+}
+
+.shows .name{
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	line-height: 1em;
+}
+
+.shows .airs{
+	font-size: .9em;
+	color: #9f9f9f;
+	padding: 0px 5px;
+}

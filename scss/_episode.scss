@@ -1,0 +1,98 @@
+.showBackground{
+	padding-top: 1.875em;
+	background: #eeeff0;
+	position: relative;
+}
+
+.showBack{
+	position: absolute;
+	top: 0px; 
+	background: darken($primary, 10%);
+	background: linear-gradient(darken($primary, 10%), darken($primary, 20%));
+	box-shadow: rgba(0,0,0,0.5) 0 0 50px 0 inset;
+	background: 
+	    url("../img/img_twit-bug.png") right 100px no-repeat,
+	    url("../img/subtle_white_feathers.png") repeat,
+	    linear-gradient(darken($primary, 10%), darken($primary, 20%));
+	height: 30%;
+	max-height: 400px;
+	width: 100%;
+}
+
+.showVideo{
+}
+
+.episode{
+	font-size: .8em;
+	color: #999;
+
+	.date{
+		margin-right: 5px;
+	}
+}
+
+.show.panel{
+	border-top: 3px solid #23a6d1;
+	background: #fff;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+
+	h4{
+		margin-bottom: 7px;
+	}
+}
+
+.mobile-subscribe{
+	margin-top: 20px;
+
+	.button{
+		margin-bottom: 0px;
+	}
+}
+
+.episode.panel{
+	border-top: 3px solid #333;
+	background: #fff;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+
+	h4{
+		margin-bottom: 7px;
+	}
+
+	&:hover{
+		cursor: pointer;
+		background: #F6F5F7;
+
+		h4{
+			color: #23a6d1;
+		}
+	}
+}
+
+a .file-size{
+	font-size: .8em;
+	display: block;
+	color: #888;
+}
+
+.th{
+	height: 100%;
+	width: 100%;
+}
+
+.name{
+	display: block;
+	text-align: center;
+	padding: 5px;
+}
+
+section .content{
+	.large-block-grid-4{
+		margin-top: 10px;
+	}
+}
+
+.showAds{
+	margin-top: 30px;
+}

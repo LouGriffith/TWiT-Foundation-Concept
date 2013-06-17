@@ -1,0 +1,100 @@
+
+
+.top-bar{
+	margin-bottom: 0px;
+	padding: 0px;
+	height: 50px;
+	background: $primary;
+}
+
+.top-bar .name{
+	margin-bottom: 0px;
+	padding: 0px;
+	height: 50px;
+}
+
+.top-bar.expanded .title-area{
+	background: $primary;
+}
+
+.top-bar h1 a{
+	font-size: 2em;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+.top-bar-section ul{
+	background: $primary;
+}
+
+.top-bar-section ul li a:not(.button) {
+	font-weight: normal;
+	font-size: .9em;
+	line-height: 50px;
+	background: $primary;
+}
+
+.top-bar.expanded .top-bar-section ul li > a{
+	background: darken($primary, 15%);
+}
+
+.top-bar-section ul li.live a{
+	background: $red !important;
+}
+
+.top-bar #nav_search_input, .top-bar #nav_search_submit{
+	top: 0px;
+}
+
+#search_form{
+	position: relative;
+	border-right: 1px solid $primary;
+}
+
+#nav_search_input{
+	border: none;
+	margin: 0px;
+	box-shadow: none;
+	height: 50px;
+	font-style: italic;
+}
+
+#nav_search_submit{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+	background: transparent url(http://cdn2.sbnation.com/images/polygon/sprites/icons.ve03c444.png) no-repeat 0 -72px;
+	text-indent: -3000px;
+	display: inline-block;
+	height: 36px;
+	width: 36px;
+	margin-top: 7px;
+	cursor: pointer;
+}
+
+.sub_nav{
+	display: none;
+	position: absolute;
+	z-index: 50;
+	background: $primary;
+	width: 40em;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+	.secondary{
+		float: left;
+		width: 10em;
+
+		li{
+			width: 100%;
+		}
+	}
+
+	.spotlight{
+		float: left;
+		width: 30em;
+	}
+}
+
+
